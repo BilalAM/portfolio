@@ -379,7 +379,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <textarea id="contact-message" name="message" class="form-textarea" placeholder="Your message..." required aria-required="true"></textarea>
             <span class="form-error" id="message-error">Please enter a message</span>
           </div>
-          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">
+          <button type="submit" class="btn btn-primary">
             ${icon('send')} Send Message
           </button>
         </form>
